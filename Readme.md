@@ -23,6 +23,7 @@ step 1 + step 2 = git checkout -b <branchnamr>, git  checkout -b <branchname><so
 ### Modern way of creating branches 
 -git switch <branchname>
 -git switch -c <branchname> or -git switch -c <rbanchname> <sourcebrance> (directly created the branch and checkout to it )
+<<<<<<< HEAD
 #######
 
 #### Branch naming 
@@ -51,3 +52,6 @@ Ex :      git worktree add -b feature/US-1003-Checkout ./checkout dev
 Remove the worktree 
 git worktree remove checkout
 >>>>>>> 5f3d58d (Doc: updated the read me file with work tree and other commands)
+=======
+#######
+>>>>>>> 8d6cd79 (Doc: Added the switch statement)
