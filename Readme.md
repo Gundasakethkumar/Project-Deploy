@@ -18,3 +18,5 @@ step 1 - create a branch - git branch <branchname> , git branch <branchname><sou
 step 2- switch to the branch - git checkout <branchname>
 
 step 1 + step 2 = git checkout -b <branchnamr>, git  checkout -b <branchname><source-branch>
+
+#######
