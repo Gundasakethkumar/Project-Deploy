@@ -22,3 +22,16 @@ step 1 + step 2 = git checkout -b <branchnamr>, git  checkout -b <branchname><so
 -git switch <branchname>
 -git switch -c <branchname> or -git switch -c <rbanchname> <sourcebrance> (directly created the branch and checkout to it )
 #######
+
+#### Branch naming 
+User story / Feature - feature/US-1001-Add-To-Cart-Functionality
+Bug --- bugfix/Bug-3434-Fix-Order-Page
+Hotfixes - hotfix/adding-columns-to-reports
+Release - release/feature-name-DDMMYYYY
+
+#### connect local repo with remote repo 
+
+git remote add origin(name of the remote) (remote URL) https://github.com/Gundasakethkumar/Project-Deploy.git
+
+git push origin <branchname> (pushing the master branch into the origin repo)
+    
