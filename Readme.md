@@ -18,5 +18,7 @@ step 1 - create a branch - git branch <branchname> , git branch <branchname><sou
 step 2- switch to the branch - git checkout <branchname>
 
 step 1 + step 2 = git checkout -b <branchnamr>, git  checkout -b <branchname><source-branch>
-
+### Modern way of creating branches 
+-git switch <branchname>
+-git switch -c <branchname> or -git switch -c <rbanchname> <sourcebrance> (directly created the branch and checkout to it )
 #######
